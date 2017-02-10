@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-vgmusic.com-renamer",
+  "version": "1.0.0",
+  "description": "Create shell script to rename the midi files downloaded from vgmusoc.com",
+  "main": "renamer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianpow/nodejs-vgmusic.com-renamer.git"
+  },
+  "author": "Brian Pow <brianpow@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/brianpow/nodejs-vgmusic.com-renamer/issues"
+  },
+  "homepage": "https://github.com/brianpow/nodejs-vgmusic.com-renamer#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "mkdirp": "^0.5.1",
+    "node-find-files": "0.0.4",
+    "path": "^0.12.7",
+    "sanitize-filename": "^1.6.1",
+  }
+}
